@@ -245,6 +245,7 @@ ApiRouter = new (function () {
         for (var i in list) {
             /**@todo .js extenstion must be */
             if (list[i] == '.gitkeep')continue;
+            if (list[i] == '.gitignore')continue;
             groupName = getComponentNameFromPath(path + list[i]);
             tmp = null;
             if (global[groupName]) {
@@ -276,6 +277,7 @@ ApiRouter = new (function () {
         for (var i in list) {
             /**@todo .js extenstion must be */
             if (list[i] == '.gitkeep')continue;
+            if (list[i] == '.gitignore')continue;
             groupName = getComponentNameFromPath(path + list[i]);
             require(path + list[i]);
             map[groupName] = [];
@@ -316,6 +318,7 @@ ApiRouter = new (function () {
         for (groupName in map) {
             /*@todo must .js extension*/
             if (groupName == '.gitkeep') continue;
+            if (groupName == '.gitignore')continue;
             code = '';
             code += groupName + ' = function(){\r\n\r\n';
             for (methodName in map[groupName]) {

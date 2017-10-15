@@ -344,6 +344,7 @@ ClientCodeLoader = function () {
         for (var i in dirList) {
             /**@todo .js extenstion must be */
             if (dirList[i] == '.gitkeep')continue;
+            if (dirList[i] == '.gitignore')continue;
             if (dirList[i] == 'sprite.png.json')continue;
             path = basePath + dirList[i];
             if (FS.statSync(path).isDirectory()) {
