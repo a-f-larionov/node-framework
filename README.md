@@ -2,7 +2,8 @@
 
 Project Node-Framework - is just framework for node.
 
-Projects use it xo https://vk.com/krestik.nolik
+Projects use it:
+ https://vk.com/krestik.nolik
 
 If you want to collaborate or something else, please send me message via:
 skype: a.f.larionov ;
