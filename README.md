@@ -1,8 +1,8 @@
-# projectXO
+# Project Node-Framework
 
-Project XO - is it one more tic tac toe game!
+Project Node-Framework - is just framework for node.
 
-Published on https://vk.com/krestik.nolik
+Projects use it xo https://vk.com/krestik.nolik
 
 If you want to collaborate or something else, please send me message via:
 skype: a.f.larionov ;
